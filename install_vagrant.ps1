@@ -6,7 +6,7 @@ if($choco_install -eq ""){
     
 }
 
-#Install Make
+#Install vagrant and virtualbox
 Write-Host "Instaling vagrant..."
 choco install virtualbox -y
 choco install virtualbox-guest-additions-guest.install -y
